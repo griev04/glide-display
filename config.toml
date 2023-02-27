@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://griev04.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Glid Display'
 theme = ["github.com/dzello/reveal-hugo"]
 
 [markup.goldmark.renderer]

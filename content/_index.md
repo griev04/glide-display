@@ -10,4 +10,4 @@ outputs = ["Reveal"]
 
 # Contents
 
-<a href="/lombok">Lombok</a>
+<a href={{< ref "lombok" >}} >Lombok</a>
