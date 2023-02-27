@@ -19,4 +19,13 @@ mediaType = "text/html"
 isHTML = true
 
 [params.reveal_hugo]
+theme = "blood"
+#custom_theme = "reveal-hugo/themes/robot-lung.css"
+margin = 0.2
+highlight_theme = "color-brewer"
+transition = "slide"
+transition_speed = "fast"
 history = true
+width = 1440
+height = 1080
+
