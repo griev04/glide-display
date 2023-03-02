@@ -14,11 +14,11 @@ outputs = ["Reveal"]
 
 ### Lombok, Indonesia
 
-<img src="lombok-island.jpg" alt="Lombok Island, Indonesia">
+<img src="img/lombok-island.jpg" alt="Lombok Island, Indonesia">
 
 ---
 
-<img src="lombok-chili.webp" alt="Lombok Project">
+<img src="img/lombok-chili.webp" alt="Lombok Project">
 
 ---
 
@@ -59,10 +59,8 @@ Lombok works by using annotations to generate code automatically during compilat
 ---
 
 ### Missing
-- Data
-- Value
-- Advanced
-- Builder
+
+Integrates in your preferred IDE + images
 
 Sources:
 - https://projectlombok.org/features/

@@ -6,8 +6,8 @@ outputs = ["Reveal"]
 
 +++
 
-# 👨‍💻 🚀
+## 👨‍💻 🚀
 
-# Contents
+## Contents
 
 <a href={{< ref "lombok" >}} >Lombok</a>
