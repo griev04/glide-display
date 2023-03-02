@@ -26,6 +26,6 @@ highlight_theme = "color-brewer"
 transition = "slide"
 transition_speed = "fast"
 history = true
-width = 1440
+width = 1600
 height = 1080
 

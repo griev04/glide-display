@@ -4,7 +4,7 @@ weight=30
 
 {{% section %}}
 
-## Delombok
+## Delombok 😿
 
 ---
 
@@ -43,13 +43,13 @@ public class Aircraft {
 
 Lombok IntelliJ plugin
 
-<img src="img/delombok.png" alt="Lombok Project">
+<img src="img/delombok.png" alt="Delombok intelliJ screenshot">
 
 ---
 
-### Without Lombok :(
+### Without Lombok 🫤
 
-```java{|3,5,7,9,15}
+```java{}
 @public class Aircraft {
     private final String registration; // unique identifier
     private final String make;

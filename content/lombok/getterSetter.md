@@ -90,4 +90,28 @@ Entire classes can be annotated as well and the logic will be applied to each fi
 
 The generated methods will be **public** unless a particular AccessLevel is specified (PUBLIC, PROTECTED, PACKAGE, and PRIVATE).
 
+---
+
+### Lazy getter
+
+We can have a lazy getter with just a simple annotation:
+
+{{%fragment%}}The getter will calculate the expensive value only once and it will be cached for later invocations.{{%/fragment%}}
+
+```java{|2-3}
+public class GetterLazyExample {
+  @Getter(lazy=true)
+  private final double[] cached = expensive();
+  // The fields that need this kind of behavior need to be private and final.
+  
+  private double[] expensive() {
+    double[] result = new double[1000000];
+    for (int i = 0; i < result.length; i++) {
+      result[i] = Math.asin(i);
+    }
+    return result;
+  }
+}
+```
+
 {{% /section %}}

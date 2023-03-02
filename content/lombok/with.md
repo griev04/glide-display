@@ -48,13 +48,17 @@ public class Aircraft {
 
 ### With Value
 
-```java{|3,5,7,9,15}
-@Value
+```java{|3-10}
+@AllArgsConstructor
 public class Aircraft {
-    String registration; // unique identifier
-    String make;
-    String model;
-    int year;
+    @With
+    private final String registration; // unique identifier
+    @With
+    private final String make;
+    @With
+    private final String model;
+    @With
+    private int year;
 }
 ```
 

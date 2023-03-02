@@ -10,7 +10,7 @@ weight=20
 
 ### Log
 
-```java{|1-5|7-12|14-18|20-21}
+```java{}
 public class ApiClientConfiguration {
 
     private static Logger LOG = LoggerFactory.getLogger(ApiClientConfiguration.class);
@@ -24,11 +24,13 @@ public class ApiClientConfiguration {
 
 ### With Lombok
 
-```java{|1}
+```java{|1,4-6}
 @Slf4j
 public class ApiClientConfiguration {
 
-    // log.debug(), log.info(), ...
+    log.debug("All is good")
+
+    log.info("Action triggered")
 
 }
 ```
