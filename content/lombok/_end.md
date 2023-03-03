@@ -22,7 +22,17 @@ weight=99
 
 - Can occasionally be difficult to debug
 
+- Too many annotations and options may decrease readability
+
 - May produce undesired outcomes when delomboking
+
+---
+
+## What's next?
+
+You may skip Lombok altogether if you switch to **Kotlin**.
+
+Stay tuned for an introduction to how Kotlin can help and how to include it in your project.
 
 ---
 
